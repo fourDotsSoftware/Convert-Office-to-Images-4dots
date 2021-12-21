@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Προβολή Εικόνων" xml:space="preserve">
+    <value>Προβολή Εικόνων</value>
+  </data>
+  <data name="MessageTitle" xml:space="preserve">
+    <value>MessageTitle</value>
+  </data>
+  <data name="Προβολή Εικόνας 1" xml:space="preserve">
+    <value>Προβολή Εικόνας 1</value>
+  </data>
+  <data name="Φίλτρο Εικόνας" xml:space="preserve">
+    <value>Φίλτρο Εικόνας</value>
+  </data>
+  <data name="Αλλαγή Φίλτρου Εικόνας" xml:space="preserve">
+    <value>Αλλαγή Φίλτρου Εικόνας</value>
+  </data>
+  <data name="Καθορισμός Ονόματος" xml:space="preserve">
+    <value>Καθορισμός Ονόματος</value>
+  </data>
+  <data name="Πηγή Εικόνας" xml:space="preserve">
+    <value>Πηγή Εικόνας</value>
+  </data>
+  <data name="Αλλαγή Ονόματος" xml:space="preserve">
+    <value>Αλλαγή Ονόματος</value>
+  </data>
+  <data name="Περιγραφή Ονόματος" xml:space="preserve">
+    <value>Περιγραφή Ονόματος</value>
+  </data>
+  <data name="Εισαγωγή Εικόνας" xml:space="preserve">
+    <value>Εισαγωγή Εικόνας</value>
+  </data>
+  <data name="Error 1" xml:space="preserve">
+    <value>Error 1</value>
+  </data>
+  <data name="Μορφοποίηση Εικόνας" xml:space="preserve">
+    <value>Μορφοποίηση Εικόνας</value>
+  </data>
+  <data name="Εναλλαγή Εικόνας" xml:space="preserve">
+    <value>Εναλλαγή Εικόνας</value>
+  </data>
+  <data name="Υπολογισμός Επιφάνειας" xml:space="preserve">
+    <value>Υπολογισμός Επιφάνειας</value>
+  </data>
+  <data name="Import search result" xml:space="preserve">
+    <value>Import search result</value>
+  </data>
+  <data name="Replace string process started" xml:space="preserve">
+    <value>Replace string process started</value>
+  </data>
+  <data name="Error 4" xml:space="preserve">
+    <value>Error 4</value>
+  </data>
+  <data name="Audio Applications" xml:space="preserve">
+    <value>Audio Applications</value>
+  </data>
+  <data name="Video Applications" xml:space="preserve">
+    <value>Video Applications</value>
+  </data>
+  <data name="PDF Applications" xml:space="preserve">
+    <value>PDF Applications</value>
+  </data>
+  <data name="File Management Applications" xml:space="preserve">
+    <value>File Management Applications</value>
+  </data>
+  <data name="System Utilities" xml:space="preserve">
+    <value>System Utilities</value>
+  </data>
+  <data name="Password Recovery" xml:space="preserve">
+    <value>Password Recovery</value>
+  </data>
+  <data name="Webdesign Applications" xml:space="preserve">
+    <value>Webdesign Applications</value>
+  </data>
+  <data name="Graphics Applications" xml:space="preserve">
+    <value>Graphics Applications</value>
+  </data>
+  <data name="Desktop Applications" xml:space="preserve">
+    <value>Desktop Applications</value>
+  </data>
+  <data name="Other Applications" xml:space="preserve">
+    <value>Other Applications</value>
+  </data>
+  <data name="Error could not Replace Image for Document" xml:space="preserve">
+    <value>Error could not Replace Image for Document</value>
+  </data>
+  <data name="Unspecified Error" xml:space="preserve">
+    <value>Unspecified Error</value>
+  </data>
+  <data name="Trial Version - Unlicensed" xml:space="preserve">
+    <value>Trial Version - Unlicensed</value>
+  </data>
+  <data name="Business Version - Licensed" xml:space="preserve">
+    <value>Business Version - Licensed</value>
+  </data>
+  <data name="Personal/EDU Version - Licensed" xml:space="preserve">
+    <value>Personal/EDU Version - Licensed</value>
+  </data>
+  <data name="The application will now exit and run the updated setup file" xml:space="preserve">
+    <value>The application will now exit and run the updated setup file</value>
+  </data>
+  <data name="Error. Could not run new Setup File !" xml:space="preserve">
+    <value>Error. Could not run new Setup File !</value>
+  </data>
+  <data name="lastversion=" xml:space="preserve">
+    <value>lastversion=</value>
+  </data>
+  <data name="languagesdownloaded=" xml:space="preserve">
+    <value>languagesdownloaded=</value>
+  </data>
+  <data name="Error Could not change Language !" xml:space="preserve">
+    <value>Error Could not change Language !</value>
+  </data>
+  <data name="Change PDF Properties" xml:space="preserve">
+    <value>Change PDF Properties</value>
+  </data>
+  <data name="Is From Windows Explorer" xml:space="preserve">
+    <value>Is From Windows Explorer</value>
+  </data>
+  <data name="Operation Stopped !" xml:space="preserve">
+    <value>Operation Stopped !</value>
+  </data>
+  <data name="Operation completed successfully !" xml:space="preserve">
+    <value>Operation completed successfully !</value>
+  </data>
+  <data name="Please specify another option as the Output Folder !" xml:space="preserve">
+    <value>Please specify another option as the Output Folder !</value>
+  </data>
+  <data name="Please add a Document first !" xml:space="preserve">
+    <value>Please add a Document first !</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Are you sure that you want clear the added files ?" xml:space="preserve">
+    <value>Are you sure that you want clear the added files ?</value>
+  </data>
+  <data name="Clear Added Files ?" xml:space="preserve">
+    <value>Clear Added Files ?</value>
+  </data>
+  <data name="Error while processing List !" xml:space="preserve">
+    <value>Error while processing List !</value>
+  </data>
+  <data name="Error wrong file type !" xml:space="preserve">
+    <value>Error wrong file type !</value>
+  </data>
+  <data name="Error. File or Directory not found !" xml:space="preserve">
+    <value>Error. File or Directory not found !</value>
+  </data>
+  <data name="Error could not read file !" xml:space="preserve">
+    <value>Error could not read file !</value>
+  </data>
+  <data name="Please add only Office Files !" xml:space="preserve">
+    <value>Please add only Office Files !</value>
+  </data>
+  <data name="Add Subdirectories ?" xml:space="preserve">
+    <value>Add Subdirectories ?</value>
+  </data>
+  <data name="Same Folder of Document" xml:space="preserve">
+    <value>Same Folder of Document</value>
+  </data>
+  <data name="Overwrite Document" xml:space="preserve">
+    <value>Overwrite Document</value>
+  </data>
+  <data name="Subfolder of Document" xml:space="preserve">
+    <value>Subfolder of Document</value>
+  </data>
+  <data name="Operation completed with Errors !" xml:space="preserve">
+    <value>Operation completed with Errors !</value>
+  </data>
+  <data name="Subfolder" xml:space="preserve">
+    <value>Subfolder</value>
+  </data>
+  <data name="Would you like to add also Subdirectories ?" xml:space="preserve">
+    <value>Would you like to add also Subdirectories ?</value>
+  </data>
+  <data name="Please enter a Subfolder Name !" xml:space="preserve">
+    <value>Please enter a Subfolder Name !</value>
+  </data>
+  <data name="Please enter a valid Subfolder Name !" xml:space="preserve">
+    <value>Please enter a valid Subfolder Name !</value>
+  </data>
+  <data name="The Trial Version of Office to Images Converter allows only 5 Document Images Extractions.\n\nPlease buy the Application for Unlimited Image Extractions and Unlimited Functionality.\n" xml:space="preserve">
+    <value>The Trial Version of Office to Images Converter allows only 5 Document Images Extractions.\n\nPlease buy the Application for Unlimited Image Extractions and Unlimited Functionality.\n</value>
+  </data>
+  <data name="Edit 4dots Project" xml:space="preserve">
+    <value>Edit 4dots Project</value>
+  </data>
+  <data name="Your trial period of the application has expired ! Please Click on the Buy Button to Buy the Application !" xml:space="preserve">
+    <value>Your trial period of the application has expired ! Please Click on the Buy Button to Buy the Application !</value>
+  </data>
+  <data name="Νέα Εικόνα" xml:space="preserve">
+    <value>Νέα Εικόνα</value>
+  </data>
+  <data name="Αλλαγή στοιχείων εικόνας" xml:space="preserve">
+    <value>Αλλαγή στοιχείων εικόνας</value>
+  </data>
+  <data name="Add new search item to project" xml:space="preserve">
+    <value>Add new search item to project</value>
+  </data>
+  <data name="Error during search startup" xml:space="preserve">
+    <value>Error during search startup</value>
+  </data>
+  <data name="Please wait" xml:space="preserve">
+    <value>Please wait</value>
+  </data>
+  <data name="Por favor espere" xml:space="preserve">
+    <value>Por favor espere</value>
+  </data>
+  <data name="Bitte warten" xml:space="preserve">
+    <value>Bitte warten</value>
+  </data>
+  <data name="Por favor aguarde" xml:space="preserve">
+    <value>Por favor aguarde</value>
+  </data>
+  <data name="Veuillez patienter" xml:space="preserve">
+    <value>Veuillez patienter</value>
+  </data>
+  <data name="Attendere prego" xml:space="preserve">
+    <value>Attendere prego</value>
+  </data>
+  <data name="しばらくお待ちください" xml:space="preserve">
+    <value>しばらくお待ちください</value>
+  </data>
+  <data name="请稍后" xml:space="preserve">
+    <value>请稍后</value>
+  </data>
+  <data name="Пожалуйста подождите" xml:space="preserve">
+    <value>Пожалуйста подождите</value>
+  </data>
+  <data name="Continue activated search?" xml:space="preserve">
+    <value>Continue activated search?</value>
+  </data>
+  <data name="MessageTitle8" xml:space="preserve">
+    <value>MessageTitle8</value>
+  </data>
+  <data name="Σφάλμα 120" xml:space="preserve">
+    <value>Σφάλμα 120</value>
+  </data>
+  <data name="Ανανέωση Εικόνας" xml:space="preserve">
+    <value>Ανανέωση Εικόνας</value>
+  </data>
+  <data name="Σφάλμα 1201" xml:space="preserve">
+    <value>Σφάλμα 1201</value>
+  </data>
+  <data name="Uniform process" xml:space="preserve">
+    <value>Uniform process</value>
+  </data>
+  <data name="Παράμετροι Μετρήσεως Εικόνας" xml:space="preserve">
+    <value>Παράμετροι Μετρήσεως Εικόνας</value>
+  </data>
+  <data name="MessageTitle7" xml:space="preserve">
+    <value>MessageTitle7</value>
+  </data>
+  <data name="Search duration process" xml:space="preserve">
+    <value>Search duration process</value>
+  </data>
+  <data name="Direct search started" xml:space="preserve">
+    <value>Direct search started</value>
+  </data>
+  <data name="Error 12" xml:space="preserve">
+    <value>Error 12</value>
+  </data>
+  <data name="Erroneous search 2" xml:space="preserve">
+    <value>Erroneous search 2</value>
+  </data>
+  <data name="Init Project" xml:space="preserve">
+    <value>Init Project</value>
+  </data>
+  <data name="Great application to Extract Images from Office Documents !" xml:space="preserve">
+    <value>Great application to Extract Images from Office Documents !</value>
+  </data>
+  <data name="A new version has been released. Press the OK button to download the new version" xml:space="preserve">
+    <value>A new version has been released. Press the OK button to download the new version</value>
+  </data>
+  <data name="This is the latest version !" xml:space="preserve">
+    <value>This is the latest version !</value>
+  </data>
+  <data name="An error occured !" xml:space="preserve">
+    <value>An error occured !</value>
+  </data>
+  <data name="A new version has been released. Would you like to download it now ?" xml:space="preserve">
+    <value>A new version has been released. Would you like to download it now ?</value>
+  </data>
+  <data name="Download new version ?" xml:space="preserve">
+    <value>Download new version ?</value>
+  </data>
+  <data name="It is necessary to upgrade to the latest version of the application. Press the OK button to download the new version" xml:space="preserve">
+    <value>It is necessary to upgrade to the latest version of the application. Press the OK button to download the new version</value>
+  </data>
+</root>
